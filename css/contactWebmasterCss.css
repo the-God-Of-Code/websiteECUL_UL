@@ -6,6 +6,10 @@ font-size: 13px;
 margin: 0px;
 padding: 0px;
 }
+.main {
+	width:99%;
+	border-top:lime 5px solid;
+}
 
 h1{
 	font-size: 40px;
