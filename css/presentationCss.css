@@ -50,6 +50,33 @@ h1#header{
 	box-shadow: 2px 2px 10px gray;
 	
 }
+
+.membersOfTheBoard{
+	font-size: 30px;
+	color: navy;
+	position: relative;
+	padding-left: 100px;
+	
+	
+}
+#theHistoryOfTheClub{
+	font-size: 20px;
+	color: navy;
+	
+	
+	
+}
+#theHistoryOfTheClub a{
+	text-decoration: none;
+	color: navy;
+}	
+
+#theHistoryOfTheClub a:hover{
+	color: lime;
+}
+
+
+
 h1 img#mainsLevees{
 	padding-left: 20px;
 	margin-top: 50px;

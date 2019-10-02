@@ -4,6 +4,76 @@
 		<title>ECUL : About</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="../css/presentationCss.css">
+
+		<link rel="icon" href="files/pictures/eculFavicon.ico">
+		<link rel="shortcut icon" href="../files/pictures/eculFavicon.ico" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<link rel="stylesheet" href="../css/css_v2/style.css">
+		<link rel="stylesheet" href="../css/css_v2/slider.css">
+		<script src="js/jquery.easing.1.3.js"></script>
+		<script src="js/jquery.js"></script>
+		<script src="js/tms-0.4.1.js"></script>
+		<script src="js/jquery-migrate-1.1.1.js"></script>
+		<script src="js/superfish.js"></script>
+		<script src="js/jquery.equalheights.js"></script>
+		<script src="js/jquery.carouFredSel-6.1.0-packed.js"></script>
+		<script src="js/jquery.ui.totop.js"></script>
+		<script>
+		 $(window).load(function(){
+		 $('.slider')._TMS({
+		 show:0,
+		 pauseOnHover:false,
+		 prevBu:'.prev',
+		 nextBu:'.next',
+		 playBu:false,
+		 duration:800,
+		 preset:'fade',
+		 easing:'easeOutQuad', 
+		 pagination:true,//'.pagination',true,'<ul></ul>'
+		 pagNums:false,
+		 slideshow:8000,
+		 numStatus:false,
+		 banners:'fade',
+		 waitBannerAnimation:false,
+		 progressBar:false
+		 })  
+		 });
+		 
+	 $(window).load (
+		function(){$('.carousel1').carouFredSel({auto: false,prev: '.prev1',next: '.next1', width: 960, items: {
+			visible : {min: 4, max: 4},
+		 }, 
+		 responsive: false, 
+		 scroll: 1, 
+		 mousewheel: false,
+		 swipe: {onMouse: false, onTouch: false}});
+	 });      
+
+		</script>
+		<!--[if lt IE 8]>
+			<div style=' clear: both; text-align:center; position: relative;'>
+				<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+					<img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+				</a>
+		 </div>
+	 <![endif]-->
+		<!--[if lt IE 9]>
+		 <script src="js/html5shiv.js"></script>
+		 <link rel="stylesheet" media="screen" href="css/ie.css">
+	 <![endif]-->
+
 	</head>
 	
 	<body>
@@ -14,16 +84,26 @@
 						<img src="../files/pictures/logoUl.jpg" id="logoul">
 					</strong>English Club of University of Lome<img src="../files/pictures/ecul.jpeg" width="300" height="200" id="mainsLevees">
 				</h1>
+
+
+				<h3 class ="membersOfTheBoard">Here are members of the board,
+						<div id="theHistoryOfTheClub">
+								<a href="../html/historyPaperEng.html">Click there to have an complete overview of the club's history</a>
+							</div>
+
+				</h3>
+				
+
 			</header>
 		
 			
 			
 			
-			<header>
+			<!--<header>
 				<h1 id="headerP">
 					<strong>
 					
-						<p id="submenuP"><a href=#>About</br><img src="../files/pictures/presentation.jpg" width="150" height="80"></a>
+						<p id="submenuP"><a href=#>Présentation</br><img src="../files/pictures/presentation.jpg" width="150" height="80"></a>
 							Dans ce premier chapitre sur le CSS, nous allons voir la théorie sur le CSS : qu'est-ce que c'est ?
 							À quoi cela ressemble-t-il ? Où est-ce qu'on écrit du code CSS ? Ces aspects théoriques ne sont pas
 							bien compliqués mais vous devez obligatoirement les connaître car c'est la base du CSS. C'est d'ailleurs 
@@ -31,15 +111,127 @@
 							le mémo en annexe.
 							
 						</p>
-						
-						
+					-->
+
+
+
+
+
+
+
+
+
+
+						<div class="bg-1">
+							<div class="container_12">
+									<div class="grid_12">
+										<div class="carousel">
+													<a href="#" class="prev1"></a><a href="#" class="next1"></a>
+													<div class="carousel_div">
+															<ul class="carousel1">
+																<li>
+														
+																	<img src="../files/pictures/aboutPicture_v2/page1-img5.jpg" alt="">
+																	<h4>The President</h4>
+																	Aolity vero eos et accusamus et iustokill odio dignissimos ducimus qui bl abduyl gdihtii praesentium voluptatum deenir rfi uiti jll atque.
+																	 <br/>
+																	<a href="#" class="btn">More on him</a>           
+																</li>
+																<li>
+																	<img src="../files/pictures/aboutPicture_v2/page1-img6.jpg" alt="">
+																	<h4>The vice President </h4>
+																	Aolity vero eos et accusamus et iustokill odio dignissimos ducimus qui bl abduyl gdihtii praesentium voluptatum deenir rfi uiti jll atque.
+																          <br>
+																	<a href="#" class="btn">More on him </a>    
+																</li>
+																<li>
+																	<img src="../files/pictures/aboutPicture_v2/page1-img7.jpg" alt="">
+																	<h4>Secretary</h4>
+																	Aolity vero eos et accusamus et iustokill odio dignissimos ducimus qui bl abduyl gdihtii praesentium voluptatum deenir rfi uiti jll atque.
+																	     <br>   
+																	<a href="#" class="btn">More on her </a>    
+																</li>
+																<li>
+																	<img src="../files/pictures/aboutPicture_v2/page1-img8.jpg" alt="">
+																	<h4>Accounts manager</h4>
+																	Aolity vero eos et accusamus et iustokill odio dignissimos ducimus qui bl abduyl gdihtii praesentium voluptatum deenir rfi uiti jll atque.
+																	         <br>
+													  
+																	<a href="#" class="btn">More on him </a>    
+																</li>
+																
+																<li>
+																	<img src="../files/pictures/aboutPicture_v2/page1-img9.jpg" alt="">
+																	<h4>Main councellor</h4>
+																	Aolity vero eos et accusamus et iustokill odio dignissimos ducimus qui bl abduyl gdihtii praesentium voluptatum deenir rfi uiti jll atque.
+																	 <br/>
+																	<a href="#" class="btn">More on her</a>           <!--
+																</li>
+																<li>
+																	<img src="../files/pictures/aboutPicture_v2/page1-img6.jpg" alt="">
+																	<h4>Growth Strategies</h4>
+																	Aolity vero eos et accusamus et iustokill odio dignissimos ducimus qui bl abduyl gdihtii praesentium voluptatum deenir rfi uiti jll atque.         <br>
+																	<a href="#" class="btn">more</a>    
+																</li>
+																<li class="grid_3">
+																	<img src="../files/pictures/aboutPicture_v2/page1-img7.jpg" alt="">
+																	<h4>Smarter CommErce</h4>
+																	Tro eos et accusamus et iusto odioyrew dignissimos ducimus qui bl abd gdihtiitt praesentium voluptatum deenir rf uiti jlle atque.        <br>
+																	<a href="#" class="btn">more</a>    
+																</li>
+																<li>
+																	<img src="../files/pictures/aboutPicture_v2/page1-img8.jpg" alt="">
+																	<h4>Market Research</h4>
+																	Hfvero eos et accusamus et iusto odiotri dignissimos ducimus qui bl abd gdihtiin praesentium voluptatum deenir rf uiti jllo atque.         <br>
+																	<a href="#" class="btn">more</a>    
+																</li>
+															-->
+															</ul>
+													</div>
+											</div>
+									</div>
+							</div>
+					</div>     
 					
+					
+			
+			
+						
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<!--
 				</h1>
-			</header>
+			</header>-->
 			
 			
 		</body>
-		  
+
+	
+				
+		
+		 <!-- 
 		<footer>
 			<div class="footer-top">
 				<div class="cont">
@@ -66,11 +258,12 @@
 			</div>
 	
 		</footer>
+	-->
 		
 		<hr>
 		<div class="container">
 			<div class="copyright">
-				Copyright &copy; <b> ecultogo_ul</b>. All rights reserved.
+				Copyright &copy; <b> ecultogo_ul</b>. All rights reserved
 			</div>
 			<div class="credits">
 				University of Lome | Republic of Togo
