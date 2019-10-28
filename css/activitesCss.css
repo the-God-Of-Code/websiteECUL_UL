@@ -2,6 +2,20 @@ header{
 	background-color: white;
 }
 
+.startLetter{
+	font-size: 100px;
+
+	/*float : left;*/
+	font-family: 'Times New Roman', Times, serif;
+	/*font-size: 3em;*/
+	font-style: italic;
+	text-indent: 100px;
+	margin-left: 25px;
+}
+.motto{
+	font-size:50px; 
+}
+
 .main {
 	width:99%;
 	border-top:lime 5px solid;
